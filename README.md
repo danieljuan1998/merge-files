@@ -1,7 +1,7 @@
 **README**
 
 This Python script automates the process of merging video files from multiple cameras, each identified by a unique prefix. It is designed to simplify the task of concatenating hikvision video recordings from various cameras into individual merged output files for each camera.
-How it works
+**How it works**
 
 The script scans the current directory for video files with filenames starting with user-defined camera prefixes (e.g., "D1", "D2", etc.). It then utilizes FFmpeg, to merge the video files for each camera into separate output files with a naming convention of camera_prefix_merged.mp4 (e.g., d1_merged.mp4, d2_merged.mp4, etc.).
 
